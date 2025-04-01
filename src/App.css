@@ -1,42 +1,59 @@
 #root {
-  max-width: 1280px;
+  max-width: 1280px; 
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  width: 100%; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 180px; 
+  background-color: #faf9f6; 
+  z-index: 1000; 
+  box-shadow: 0px 20px 30px rgba(189, 189, 189, 0.3);
+  /* (x, y, shadow_thickness, color) */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* The header contents IE logo and buttons*/
+nav { 
+  display: flex;
+  align-items: center;
+  background-color: #faf9f6;
+  gap: 5%; 
 }
 
-.card {
-  padding: 2em;
+/* Where the button are */
+nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  gap: 5%;
 }
 
-.read-the-docs {
-  color: #888;
+/* Button Attributes */
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+/* Button text attributes */
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hovering buttons */
+nav ul li a:hover {
+  color: aqua;
+}
+
+.logo { 
+  height: 13em;
+  cursor: pointer;
+  margin-left: 20%;
 }
