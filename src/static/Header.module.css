@@ -1,10 +1,3 @@
-#root {
-    max-width: 1280px; 
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
-  
   .header {
     width: 100%; 
     position: fixed;
@@ -22,7 +15,8 @@
     display: flex;
     align-items: center;
     background-color: #faf9f6;
-    gap: 5%; 
+    gap: 13%; 
+    margin-left: 20%;
   }
   
   /* Where the button are */
@@ -53,7 +47,8 @@
   }
   
   .logo { 
-    height: 13em;
+    margin-top: 1em;
+    height: 9em;
     cursor: pointer;
     margin-left: 20%;
   }

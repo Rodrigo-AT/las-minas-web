@@ -1,13 +1,15 @@
-import '../static/Header.css'
+import styles from '../static/Header.module.css'
 import logo from '../assets/LasMinas_Logo.svg'
 
 export default function Header() {
 
   return (
     <>
-      <div className="header">
+      <div className={styles.header}>
         <nav>
-          <img src={logo} className="logo" alt="Las Minas logo" />
+          <a href="home">
+            <img src={logo} className={styles.logo} alt="Las Minas logo"/>
+          </a>
           <ul>
             <li><a href="home">Home</a></li>
             <li><a href="menu">Menu</a></li>
@@ -15,8 +17,6 @@ export default function Header() {
           </ul>
         </nav>
       </div>
-      
-
     </>
   )
 }
