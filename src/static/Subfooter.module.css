@@ -1,0 +1,23 @@
+    #root {
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
+   } 
+  
+   .subfooter {
+    height: 60px;
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+  }
