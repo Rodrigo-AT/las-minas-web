@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home'
-import Menu from './pages/Menu'
 import About from './pages/About'
 import Error404 from './pages/Error404'
 
@@ -12,7 +11,6 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Error404 />} />
         </Routes>

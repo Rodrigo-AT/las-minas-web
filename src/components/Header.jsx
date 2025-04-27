@@ -12,7 +12,7 @@ export default function Header() {
           </a>
           <ul>
             <li><a href="home">Home</a></li>
-            <li><a href="menu">Menu</a></li>
+            <li><a href="#menu">Menu</a></li>
             <li><a href="about">Our Story</a></li>
           </ul>
         </nav>

@@ -15,5 +15,14 @@
 
     text-align: center;
   }
+
+  .carousel {
+    width:100vw;
+    position: relative;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   
