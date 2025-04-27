@@ -5,9 +5,8 @@ export default function Footer() {
   return (
     <>
       <div className={styles.footer}>
-        <p>hello</p>
+        <p className={styles.paragraph}>This is the footer.</p>
       </div>
-
     </>
   )
 }

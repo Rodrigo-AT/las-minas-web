@@ -3,11 +3,13 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Subfooter from '../components/Subfooter'
 import sandwich from '../assets/file.svg'
+import Subheader from '../components/Subheader'
 
 export default function Home() {
 
   return (
     <>
+        <Subheader/>
         <Header />
         <section aria-label="Signature Dishes">
 

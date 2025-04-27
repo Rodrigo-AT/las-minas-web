@@ -2,20 +2,22 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-  
-.footer {
-  height: 250px; 
-  background-color: rgb(36, 33, 33); 
+} 
+    
+.subheader {
+  top: 0;
+  height: 35px;
+  background-color:  #DAA520;
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
 }
-
+  
 .paragraph {
-  color: rgb(114, 27, 27);
+  color: #faf9f6;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
+  margin-left: 20%;
 }

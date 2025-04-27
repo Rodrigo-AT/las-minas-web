@@ -5,9 +5,8 @@ export default function Subfooter() {
   return (
     <>
       <div className={styles.subfooter}>
-        <p>copyrightlol</p>
+        <p className={styles.paragraph}>Copyright © 2025 <strong>Las Minas Guatemalan Cuisine</strong>. All Rights Reserved.</p>
       </div>
-
     </>
   )
 }
