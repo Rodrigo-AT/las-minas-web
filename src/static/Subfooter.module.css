@@ -1,23 +1,21 @@
-    #root {
-     min-height: 100%;
-     display: flex;
-     flex-direction: column;
-   } 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+} 
   
-   .subfooter {
-    height: 60px;
-    background-color: grey;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-    left: 0;
-  }
+.subfooter {
+  height: 55px;
+  background-color:  #04c274;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
-  p {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 18px;
-  }
+.paragraph {
+  color: #faf9f6;
+  text-decoration: none;
+  font-size: 15px;
+}
