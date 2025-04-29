@@ -24,11 +24,6 @@ html, body {
     flex: 1;
   }
 
-  .carousel {
-    width:100vw;
-    position: relative;
-  }
-
   html {
     scroll-behavior: smooth;
   }
