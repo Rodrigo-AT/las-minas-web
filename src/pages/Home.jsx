@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Subfooter from '../components/Subfooter'
 import Subheader from '../components/Subheader'
-import Carousel from '../components/Carousel'
+import shuco from '../assets/shuco.png'
 
 export default function Home() {
 
@@ -11,7 +11,7 @@ export default function Home() {
     <>
         <Subheader/>
         <Header />
-        <Carousel/>
+        <img className={styles.shuco} src={shuco} alt="shuco" />
         
         <div id="menu">
           <div className= {styles.body}><h1>Menu</h1></div>

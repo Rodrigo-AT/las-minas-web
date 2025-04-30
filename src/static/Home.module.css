@@ -27,5 +27,12 @@ html, body {
   html {
     scroll-behavior: smooth;
   }
-  
+
+  .shuco {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+  }
   
