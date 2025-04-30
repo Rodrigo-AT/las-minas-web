@@ -11,7 +11,7 @@
   }
   
   /* The header contents IE logo and buttons*/
-  nav { 
+  .navigation { 
     display: flex;
     align-items: center;
     background-color: #faf9f6;
@@ -20,7 +20,7 @@
   }
   
   /* Where the button are */
-  nav ul {
+  .navigation ul {
     list-style: none;
     display: flex;
     text-align: center;
@@ -29,20 +29,20 @@
   }
   
   /* Button Attributes */
-  nav ul li {
+  .navigation ul li {
     display: inline-block;
     margin: 10px 20px;
   }
   
   /* Button text attributes */
-  nav ul li a {
+  .navigation ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
   }
   
   /* Hovering buttons */
-  nav ul li a:hover {
+  .navigation ul li a:hover {
     color: aqua;
   }
   

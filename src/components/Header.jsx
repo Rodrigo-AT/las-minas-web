@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <div className={styles.header}>
-        <nav>
+        <nav className={styles.navigation}>
           <a href="home">
             <img src={logo} className={styles.logo} alt="Las Minas logo"/>
           </a>
