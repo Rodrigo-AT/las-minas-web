@@ -5,7 +5,14 @@ export default function Footer() {
   return (
     <>
       <div className={styles.footer}>
-        <p className={styles.paragraph}>This is the footer.</p>
+        <nav>
+          <p className={styles.header}>Contact Us</p>
+          <ul>
+            <p className={styles.paragraph}>Contact Us</p>
+            <p className={styles.paragraph}>Contact Us</p>
+            <p className={styles.paragraph}>Contact Us</p>
+          </ul>
+        </nav>
       </div>
     </>
   )

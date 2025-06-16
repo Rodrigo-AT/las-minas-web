@@ -18,6 +18,34 @@
 .paragraph {
   color: #faf9f6;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   margin-left: 20%;
+  white-space: nowrap;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0 14%;
+  width: 100%;
+  padding-left: 12%;
+}
+
+ .navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 0.5%;
+  padding: 0;
+  margin: 0;
+ }
+
+.navigation ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+i{
+  color: #faf9f6;
+  cursor: pointer;
 }

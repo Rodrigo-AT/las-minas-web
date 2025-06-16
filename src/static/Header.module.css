@@ -11,15 +11,7 @@
   }
   
   /* The header contents IE logo and buttons*/
-  /* nav { 
-    display: flex;
-    align-items: center;
-    background-color: #faf9f6;
-    gap: 13%; 
-    margin-left: 20%;
-  } */
-
-  .desktopNav {
+  .desktopNav { 
     display: flex;
     align-items: center;
     background-color: #faf9f6;
@@ -54,9 +46,74 @@
     color: aqua;
   }
   
-  .logo { 
+  .desktopNav .logo { 
     margin-top: 1em;
     height: 9em;
     cursor: pointer;
     margin-left: 20%;
   }
+
+  .mobileNav {
+  display: none;
+  }
+
+  @media (max-width: 768px) {
+    .desktopNav {
+      display: none;
+    }
+
+    .mobileNav { 
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #faf9f6;
+      position: relative;
+    }
+
+    .mobileNav .logo { 
+      margin-top: 1em;
+      height: 9em;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+
+    .mobileNav .hamMenu {
+      position: absolute;
+      top: 2rem;
+      left: 1rem;
+      z-index: 1000;
+
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    i {
+      font-size: 3rem;
+      color: red;
+    }
+
+    .offScreenMenu {
+      background-color:#62c1e5;
+      height: 100vh;
+      width: 100%;
+      max-width: 300px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: -300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;    
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      transition: .3s ease;
+      transform: translateX(-100%);
+    }
+
+    .offScreenMenu.active {
+      transform: translateX(0);
+    }
+}
