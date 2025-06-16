@@ -7,15 +7,18 @@ export default function Header() {
     <>
       <div className={styles.header}>
         <nav>
-          <a href="home">
-            <img src={logo} className={styles.logo} alt="Las Minas logo"/>
-          </a>
-          <ul>
-            <li><a href="home">Home</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="about">Our Story</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
+          <div className={styles.desktopNav}>
+            <a href="home">
+              <img src={logo} className={styles.logo} alt="Las Minas logo"/>
+            </a>
+            <ul>
+              <li><a href="home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="about">Our Story</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#contact">Location / Hours</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </>
