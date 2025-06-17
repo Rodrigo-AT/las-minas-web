@@ -1,3 +1,4 @@
+import styles from '../static/Error404.module.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Subfooter from '../components/Subfooter'
@@ -7,9 +8,11 @@ export default function Error404() {
 
   return (
     <>
-        <Subheader/>
+        <div className={styles.subheaderWrapper}>
+          <Subheader />
+        </div>
         <Header />
-        <h1>ERROR 404: Page Not Found</h1>
+        <div className= {styles.body}><h1>ERROR 404: Page not Found</h1></div>
         <Footer />
         <Subfooter/>
     </>
