@@ -1,17 +1,12 @@
 #root {
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
 }
   
 .footer {
   height: 450px; 
   background-color: rgb(31, 29, 29); 
-  text-align: center;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   width: 100%;
   padding-top: 20px;
 }
@@ -22,26 +17,69 @@
   font-size: 36px;
   font-weight: bold;
   margin-top: 0;
+  text-align: center;
 }
 
-.paragraph {
+.leftB {
+  text-align: left;
+  color: #D90000;
+  text-decoration: none;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.leftP {
+  text-align: left;
   color: #D90000;
   text-decoration: none;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.navigation {
+.rightP{
+  text-align: right;
+  color: #D90000;
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.rightB {
+  color: #D90000;
+  text-decoration: none;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.leftListIn{
+  list-style: none;
+  align-items: left;
+}
+
+.leftListOut{
+  list-style: none;
+  align-items: left;
+  margin-left: 10%;
+}
+
+.rightList{
+  list-style: none;
+  margin-right: 10%;
+}
+
+.navLists {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.footNav {
   margin-top: 10px;
 }
 
- .navigation ul {
-  display: flex;
-  list-style: block;
- }
-
-.navigation ul li {
+.footNav ul li {
   display: list-item;
+  white-space: nowrap;
 }
