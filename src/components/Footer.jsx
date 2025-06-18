@@ -21,13 +21,13 @@ export default function Footer() {
               </p></li>
               <ul className={styles.socialsList}>
                 <li><a href="https://www.instagram.com/lasminasguatecuisine/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-instagram fa-2x"></i>
                 </a></li>
                 <li><a href="https://www.facebook.com/people/Las-Minas-Guatemalan-Cuisine/61560650415767/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-facebook fa-2x"></i>
                 </a></li>
                 <li><a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-san-jose-2" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-yelp"></i>
+                  <i class="fab fa-yelp fa-2x"></i>
                 </a></li>
               </ul>
             </ul>
