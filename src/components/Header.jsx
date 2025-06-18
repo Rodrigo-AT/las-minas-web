@@ -46,7 +46,7 @@ export default function Header() {
           </a>
           <ul>
             <li><a href="home">{translations[language].home}</a></li>
-            <li><a href="#menu">{translations[language].menu}</a></li>
+            <li><a href="home#menu">{translations[language].menu}</a></li>
             <li><a href="about">{translations[language].ourStory}</a></li>
             <li><a href="#contact">{translations[language].contactUs}</a></li>
             <li><a href="#contact">{translations[language].locationHours}</a></li>
@@ -75,7 +75,7 @@ export default function Header() {
           <div className={`${styles.offScreenMenu} ${menuOpen ? styles.active : ''}`}>
             <ul>
               <li><a href="home">{translations[language].home}</a></li>
-              <li><a href="#menu">{translations[language].menu}</a></li>
+              <li><a href="home#menu">{translations[language].menu}</a></li>
               <li><a href="about">{translations[language].ourStory}</a></li>
               <li><a href="#contact">{translations[language].contactUs}</a></li>
               <li><a href="#contact">{translations[language].locationHours}</a></li>

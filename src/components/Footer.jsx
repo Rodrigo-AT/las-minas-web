@@ -8,28 +8,52 @@ export default function Footer() {
         <p className={styles.header}>Contact Us</p>
         <div className={styles.footNav}>
           <div className={styles.navLists}>
+
             <ul className={styles.leftListOut}>
-              <li><p className={styles.leftB}>Business Address</p></li>
-              <li><p className={styles.leftP}>1255 W. El Camino Real, Sunnyvale, CA, 94087</p></li>
-              <li><p className={styles.leftB}>Phone Number</p></li>
-              <li><p className={styles.leftP}>(408) 480-7505</p></li>
-              <li><p className={styles.leftB}>Email</p></li>
-              <li><p className={styles.leftP}>email</p></li>
+              <li><p>
+                <span className={styles.leftB}> Business Address </span> <br/>
+                <span className={styles.leftP}>1255 W. El Camino Real, Sunnyvale, CA, 94087 </span> <br/><br/>
+
+                <span className={styles.leftB}>Phone Number </span> <br/>
+                <a href= "tel:408-480-7505" className = {styles.leftP}> (408) 480-7505 </a> <br/><br/>
+                <span className={styles.leftB}>Email </span> <br/>
+                <a href= "Info.lasminas@gmail.com" className = {styles.leftP}> Info.lasminas@gmail.com </a>
+              </p></li>
+              <ul className={styles.socialsList}>
+                <li><a href="https://www.instagram.com/lasminasguatecuisine/" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-instagram"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/people/Las-Minas-Guatemalan-Cuisine/61560650415767/" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-facebook"></i>
+                </a></li>
+                <li><a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-san-jose-2" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-yelp"></i>
+                </a></li>
+              </ul>
             </ul>
+
             <ul className={styles.rightList}>
-              <li><p className={styles.rightB}>Business Hours</p></li>
-              <li><p className={styles.rightB}>NOW OPEN ALL SUNDAYS</p></li>
+              <li><p className={styles.rightB}>
+                Business Hours<br />
+                NOW OPEN ALL SUNDAYS
+              </p></li>
+
               <div className={styles.navLists}>
                 <ul className={styles.leftListIn}>
-                  <li><p className={styles.rightP}>MONDAY:      11:00AM - 9:00PM</p></li>
-                  <li><p className={styles.rightP}>TUESDAY:     11:00AM - 9:00PM</p></li>
-                  <li><p className={styles.rightP}>WEDNESDAY:   11:00AM - 9:00PM</p></li>
-                  <li><p className={styles.rightP}>THURSDAY:    11:00AM - 9:00PM</p></li>
+                  <li><p className={styles.rightP}>
+                    MONDAY:      11:00AM - 9:00PM<br />
+                    TUESDAY:     11:00AM - 9:00PM<br />
+                    WEDNESDAY:   11:00AM - 9:00PM<br />
+                    THURSDAY:    11:00AM - 9:00PM
+                  </p></li>
                 </ul>
+                
                 <ul className={styles.rightList}>
-                  <li><p className={styles.rightP}>FRIDAY:      11:00AM - 9:00PM</p></li>
-                  <li><p className={styles.rightP}>SATURDAY:    11:00AM - 9:00PM</p></li>
-                  <li><p className={styles.rightP}>SUNDAY:      11:00AM - 9:00PM</p></li>
+                  <li><p className={styles.rightP}>
+                    FRIDAY:      11:00AM - 10:00PM<br />
+                    SATURDAY:    11:00AM - 10:00PM<br />
+                    SUNDAY:      11:00AM - 7:00PM
+                  </p></li>
                 </ul>
               </div>
             </ul>
