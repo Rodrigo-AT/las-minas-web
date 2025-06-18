@@ -1,23 +1,56 @@
 import styles from '../static/Footer.module.css'
+import { useLanguage } from '../context/LanguageContext.jsx';
 
 export default function Footer() {
-
+  const { language } = useLanguage();
+  const translations = {
+  en: {
+    contactUs: "Contact Us",
+    businessAddressTitle: "Business Address",
+    phoneNumberTitle: "Phone Number",
+    emailTitle: "Email",
+    businessHoursTitle: "Business Hours",
+    nowOpenSundays: "NOW OPEN ALL SUNDAYS",
+    monday: "MONDAY:      11:00AM - 9:00PM",
+    tuesday: "TUESDAY:     11:00AM - 9:00PM",
+    wednesday: "WEDNESDAY:   11:00AM - 9:00PM",
+    thursday: "THURSDAY:    11:00AM - 9:00PM",
+    friday: "FRIDAY:      11:00AM - 10:00PM",
+    saturday: "SATURDAY:    11:00AM - 10:00PM",
+    sunday: "SUNDAY:      11:00AM - 7:00PM"
+  },
+  es: {
+    contactUs: "Contáctenos",
+    businessAddressTitle: "Dirección Comercial",
+    phoneNumberTitle: "Teléfono",
+    emailTitle: "Correo Electrónico",
+    businessHoursTitle: "Horario Comercial",
+    nowOpenSundays: "AHORA ABIERTO LOS DOMINGOS",
+    monday: "LUNES:      11:00AM - 9:00PM",
+    tuesday: "MARTES:     11:00AM - 9:00PM",
+    wednesday: "MIÉRCOLES:  11:00AM - 9:00PM",
+    thursday: "JUEVES:     11:00AM - 9:00PM",
+    friday: "VIERNES:    11:00AM - 10:00PM",
+    saturday: "SÁBADO:     11:00AM - 10:00PM",
+    sunday: "DOMINGO:    11:00AM - 7:00PM"
+  }
+};
   return (
     <>
       <div className={styles.footer}>
-        <p className={styles.header}>Contact Us</p>
+        <p className={styles.header}>{translations[language].contactUs}</p>
         <div className={styles.footNav}>
           <div className={styles.navLists}>
 
             <ul className={styles.leftListOut}>
               <li><p>
-                <span className={styles.leftB}> Business Address </span> <br/>
+                <span className={styles.leftB}>{translations[language].businessAddressTitle}</span> <br/>
                 <span className={styles.leftP}>1255 W. El Camino Real, Sunnyvale, CA, 94087 </span> <br/><br/>
 
-                <span className={styles.leftB}>Phone Number </span> <br/>
+                <span className={styles.leftB}>{translations[language].phoneNumberTitle}</span> <br/>
                 <a href= "tel:408-480-7505" className = {styles.leftP}> (408) 480-7505 </a> <br/><br/>
-                <span className={styles.leftB}>Email </span> <br/>
-                <a href= "Info.lasminas@gmail.com" className = {styles.leftP}> Info.lasminas@gmail.com </a>
+                <span className={styles.leftB}>{translations[language].emailTitle} </span> <br/>
+                <a href= "Info.lasminas@gmail.com" className = {styles.leftP}> info.lasminas@gmail.com </a>
               </p></li>
               <ul className={styles.socialsList}>
                 <li><a href="https://www.instagram.com/lasminasguatecuisine/" target="_blank" rel="noopener noreferrer">
@@ -34,25 +67,25 @@ export default function Footer() {
 
             <ul className={styles.rightList}>
               <li><p className={styles.rightB}>
-                Business Hours<br />
-                NOW OPEN ALL SUNDAYS
+                {translations[language].businessHoursTitle}<br />
+                {translations[language].nowOpenSundays}
               </p></li>
 
               <div className={styles.navLists}>
                 <ul className={styles.leftListIn}>
                   <li><p className={styles.rightP}>
-                    MONDAY:      11:00AM - 9:00PM<br />
-                    TUESDAY:     11:00AM - 9:00PM<br />
-                    WEDNESDAY:   11:00AM - 9:00PM<br />
-                    THURSDAY:    11:00AM - 9:00PM
+                    {translations[language].monday}<br />
+                    {translations[language].tuesday}<br />
+                    {translations[language].wednesday}<br />
+                    {translations[language].thursday}
                   </p></li>
                 </ul>
                 
                 <ul className={styles.rightList}>
                   <li><p className={styles.rightP}>
-                    FRIDAY:      11:00AM - 10:00PM<br />
-                    SATURDAY:    11:00AM - 10:00PM<br />
-                    SUNDAY:      11:00AM - 7:00PM
+                    {translations[language].friday}<br />
+                    {translations[language].saturday}<br />
+                    {translations[language].sunday}
                   </p></li>
                 </ul>
               </div>

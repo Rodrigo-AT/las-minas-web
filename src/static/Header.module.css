@@ -15,8 +15,9 @@
     display: flex;
     align-items: center;
     background-color: #faf9f6;
-    gap: 13%; 
+    gap: 5%; 
     margin-left: 20%;
+    justify-content: space-between;
   }
   
   /* Where the button are */
@@ -55,9 +56,8 @@
 
   .desktopNav .langButton {
     background: none;
-    border: 1px solid black;
+    border: transparent;
     padding: 0.5rem 1rem;
-    margin-left: 1rem;
     cursor: pointer;
     font-size: 1rem;
     color: black;

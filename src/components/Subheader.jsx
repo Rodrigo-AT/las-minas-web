@@ -1,14 +1,23 @@
 import styles from '../static/Subheader.module.css'
+import { useLanguage } from '../context/LanguageContext.jsx';
 
 export default function Subfooter() {
-
+  const { language } = useLanguage();
+  const translations = {
+    en: {
+      callUs: "CALL US:",
+    },
+    es: {
+      callUs: "LLÁMANOS:",
+    }
+  };
   return (
     <>
       
       <div className={styles.subheader}>
         <nav className={styles.navigation}>
           <ul>
-            <a href= "tel:408-480-7505" className = {styles.paragraph}> CALL US: (408) 480-7505 </a>
+            <a href= "tel:408-480-7505" className = {styles.paragraph}> {translations[language].callUs} (408) 480-7505 </a>
             <a className={styles.paragraph}>1255 W. El Camino Real, Sunnyvale, CA, 94087</a>
           </ul>
           

@@ -13,7 +13,9 @@ export default function About() {
         </div>
         <Header />
         <div className= {styles.body}><h1>this is about</h1></div>
-        <Footer />
+        <div id="contact">
+          <Footer />
+        </div>
         <Subfooter />
     </>
   )

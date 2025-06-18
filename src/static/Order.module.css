@@ -1,9 +1,3 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .body {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -11,7 +5,7 @@ html, body {
     padding-top: 180px;
   
     color-scheme: light dark;
-    color: rebeccapurple;
+    color: red;
     background-color: #faf9f6;
   
     font-synthesis: none;
@@ -20,38 +14,16 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 
     text-align: center;
-
-    flex: 1;
   }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  .shuco {
-    width: 70vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    height: 70vh;
-  }
-
+  
   .subheaderWrapper {
     display: block;
-  }
-
-  .menuImage {
-    width: 50%;
-    display: block;
-    margin: 0 auto 2rem auto;
   }
 
 @media (max-width: 768px) {
   .subheaderWrapper {
     display: none;
   }
-  .menuImage {
-      width: 100%;
-    }
 }
+  
   
