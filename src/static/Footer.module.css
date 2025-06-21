@@ -38,7 +38,7 @@
 }
 
 .rightP{
-  text-align: right;
+  text-align: left;
   color: #D90000;
   text-decoration: none;
   font-size: 22px;
@@ -66,7 +66,12 @@
   margin-left: 15%;
 }
 
-.rightList{
+.rightListOut{
+  list-style: none;
+  margin-right: 10%;
+}
+
+.rightListIn{
   list-style: none;
   margin-right: 10%;
 }
@@ -88,8 +93,125 @@
 .socialsList {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 40px;
   justify-content: flex-start;
   padding: 0;
-  margin: 0;
+  margin-left: 10px;
 }
+
+.wrap {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #d1eaff;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.wrap a {
+  position: relative;
+  z-index: 1;
+}
+
+.mobileFooterNav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+    .footNav {
+      display: none;
+    }
+
+    .footer {
+      height: 900px; 
+      background-color: rgb(31, 29, 29); 
+      flex-direction: column;
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    .mobileFooterNav {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .mobileFooterNav ul {
+      list-style: none;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .mobileFooterNav ul li {
+      display: list-item;
+      white-space: nowrap;
+      text-align: center;
+      width: 100%;
+    }
+
+    .mobileB {
+      color: #D90000;
+      text-decoration: none;
+      font-size: 26px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .mobileP {
+      text-align: center;
+      color: #D90000;
+      text-decoration: none;
+      font-size:20px;
+      margin-bottom: 10px;
+    }
+
+    .socialsListMobile {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      gap: 0;
+    }
+
+    .mobileWrap {
+      position: relative;
+      width: 10px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      margin-left: 40%;
+    }
+
+    .mobileCircle {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: #d1eaff;
+      border-radius: 50%;
+      z-index: 0;
+      
+    }
+
+    .mobileWrap i {
+      position: relative;
+      z-index: 1;
+      line-height: 1;
+      
+    }
+  }

@@ -17,9 +17,11 @@ export default function Home() {
   const translations = {
   en: {
     menuTitle: "Menu",
+    catagories: "Menu Category"
   },
   es: {
     menuTitle: "Menú",
+    catagories: "Categoría Del Menú"
   }
 };
   return (
@@ -28,12 +30,7 @@ export default function Home() {
           <Subheader />
         </div>
         <Header />
-        
         <div id="menu">
-          {/* MENU CATEGORY START*/}
-
-          {/* MENU CATEGORY END*/}
-
           <div className= {styles.body}><h1>{translations[language].menuTitle}</h1></div>
 
           {pagesToShow.map(pageNum => (

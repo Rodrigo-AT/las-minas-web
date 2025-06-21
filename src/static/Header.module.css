@@ -9,14 +9,14 @@
     box-shadow: 0px 20px 30px rgba(189, 189, 189, 0.3);
     /* (x, y, shadow_thickness, color) */
   }
-  
   /* The header contents IE logo and buttons*/
   .desktopNav { 
     display: flex;
     align-items: center;
     background-color: #faf9f6;
     gap: 5%; 
-    margin-left: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: space-between;
   }
   
@@ -39,13 +39,22 @@
   .desktopNav ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
   }
   
   /* Hovering buttons */
   .desktopNav ul li a:hover {
     color: aqua;
   }
+
+  .btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #2563eb;
+  color: rgb(255, 76, 76);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  } 
   
   .desktopNav .logo { 
     margin-top: 1em;
@@ -59,8 +68,12 @@
     border: transparent;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 24px;
     color: black;
+  }
+
+  .desktopNav .langButton:hover {
+    color: aqua;
   }
 
   .mobileNav {
