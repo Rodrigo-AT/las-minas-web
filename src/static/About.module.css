@@ -15,6 +15,26 @@
 
     text-align: center;
   }
+
+  .body h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0B1D51;             /* dark navy blue for heading */
+  font-weight: 700;
+}
+
+.paragraph {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  padding: 0 1.5rem;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  background-color: #fafafa;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
   
   .subheaderWrapper {
     display: block;

@@ -14,17 +14,17 @@ export default function Header() {
       home: "Home",
       menu: "Menu",
       ourStory: "Our Story",
-      contactUs: "Contact Us",
+      contactUs: "Visit Us",
       locationHours: "Location / Hours",
-      orderButton: "Order Now"
+      orderButton: "ORDER ONLINE"
     },
     es: {
       home: "Inicio",
       menu: "Menú",
-      ourStory: "Nuestra Historia",
-      contactUs: "Contáctanos",
+      ourStory: "Quiénes somos",
+      contactUs: "Visítanos",
       locationHours: "Ubicación / Horario",
-      orderButton: "Ordene Ahora"
+      orderButton: "ORDENA AHORA"
     }
   };
 
@@ -48,16 +48,15 @@ export default function Header() {
           </a>
           <ul>
             <li><a href="home">{translations[language].home}</a></li>
-            <li><a href="#menu">{translations[language].menu}</a></li>
+            <li><a href="/home#menu">{translations[language].menu}</a></li>
             <li><a href="about">{translations[language].ourStory}</a></li>
             <li><a href="#contact">{translations[language].contactUs}</a></li>
-            <li><a href="#contact">{translations[language].locationHours}</a></li>
             <li>
               <button 
               onClick={() => setLanguage(language === 'en' ? 'es' : 'en')} 
               className={styles.langButton}
               >
-              {language === 'en' ? 'Español' : 'English'}
+              {language === 'en' ? '🇬🇹' : '🇺🇸'}
               </button>
             </li>
             <li><a href='/pickup-delivery' className={styles.btn}>{translations[language].orderButton}</a></li>
@@ -79,16 +78,15 @@ export default function Header() {
           <div className={`${styles.offScreenMenu} ${menuOpen ? styles.active : ''}`}>
             <ul>
               <li><a href="home">{translations[language].home}</a></li>
-              <li><a href="#menu">{translations[language].menu}</a></li>
+              <li><a href="/home#menu">{translations[language].menu}</a></li>
               <li><a href="about">{translations[language].ourStory}</a></li>
               <li><a href="#contact">{translations[language].contactUs}</a></li>
-              <li><a href="#contact">{translations[language].locationHours}</a></li>
               <li>
                 <button 
                 onClick={() => setLanguage(language === 'en' ? 'es' : 'en')} 
                 className={styles.langButton}
                 >
-                {language === 'en' ? 'Español' : 'English'}
+                {language === 'en' ? '🇬🇹' : '🇺🇸'}
                 </button>
               </li>
               <li><a href='/pickup-delivery' className={styles.btn}>{translations[language].orderButton}</a></li>

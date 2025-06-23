@@ -5,34 +5,34 @@ export default function Footer() {
   const { language } = useLanguage();
   const translations = {
   en: {
-    contactUs: "Contact Us",
+    contactUs: "Visit Us!",
     businessAddressTitle: "Business Address",
     phoneNumberTitle: "Phone Number",
     emailTitle: "Email",
     businessHoursTitle: "Business Hours",
     nowOpenSundays: "NOW OPEN ALL SUNDAYS",
-    monday: "MONDAY:      11:00AM - 9:00PM",
-    tuesday: "TUESDAY:     11:00AM - 9:00PM",
-    wednesday: "WEDNESDAY:   11:00AM - 9:00PM",
-    thursday: "THURSDAY:    11:00AM - 9:00PM",
-    friday: "FRIDAY:      11:00AM - 10:00PM",
-    saturday: "SATURDAY:    11:00AM - 10:00PM",
-    sunday: "SUNDAY:      11:00AM - 7:00PM"
+    monday: "Monday:      11:00 AM - 9:00 PM",
+    tuesday: "Tuesday:     11:00 AM - 9:00 PM",
+    wednesday: "Wednesday:   11:00 AM - 9:00 PM",
+    thursday: "Thursday:    11:00 AM - 9:00 PM",
+    friday: "Friday:      11:00 AM - 10:00 PM",
+    saturday: "Saturday:    11:00 AM - 10:00 PM",
+    sunday: "Sunday:      11:00 AM - 7:00 PM"
   },
   es: {
-    contactUs: "Contáctenos",
+    contactUs: "Visítanos!",
     businessAddressTitle: "Dirección Comercial",
     phoneNumberTitle: "Teléfono",
     emailTitle: "Correo Electrónico",
     businessHoursTitle: "Horario Comercial",
     nowOpenSundays: "AHORA ABIERTO LOS DOMINGOS",
-    monday: "LUNES:      11:00AM - 9:00PM",
-    tuesday: "MARTES:     11:00AM - 9:00PM",
-    wednesday: "MIÉRCOLES:  11:00AM - 9:00PM",
-    thursday: "JUEVES:     11:00AM - 9:00PM",
-    friday: "VIERNES:    11:00AM - 10:00PM",
-    saturday: "SÁBADO:     11:00AM - 10:00PM",
-    sunday: "DOMINGO:    11:00AM - 7:00PM"
+    monday: "Lunes:      11:00 AM - 9:00 PM",
+    tuesday: "Martes:     11:00 AM - 9:00 PM",
+    wednesday: "Miércoles:  11:00 AM - 9:00 PM",
+    thursday: "Jueves:     11:00 AM - 9:00 PM",
+    friday: "Viernes:    11:00 AM - 10:00 PM",
+    saturday: "Sábado:     11:00 AM - 10:00 PM",
+    sunday: "Domingo:    11:00 AM - 7:00 PM"
   }
 };
   return (

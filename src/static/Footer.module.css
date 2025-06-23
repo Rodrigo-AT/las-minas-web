@@ -5,14 +5,15 @@
   
 .footer {
   height: 450px; 
-  background-color: rgb(31, 29, 29); 
+  background-color: #4997D0; 
   flex-direction: column;
   width: 100%;
   padding-top: 20px;
 }
 
+/* Title */
 .header {
-  color: #D90000;
+  color: #faf9f6;
   text-decoration: none;
   font-size: 36px;
   font-weight: bold;
@@ -20,34 +21,38 @@
   text-align: center;
 }
 
+/* Headers on Left */
 .leftB {
   text-align: left;
-  color: #D90000;
+  color: #DAA520;
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
+/* Text on Left */
 .leftP {
   text-align: left;
-  color: #D90000;
+  color: #faf9f6;
   text-decoration: none;
   font-size:20px;
   margin-bottom: 10px;
 }
 
+/* Text on Right */
 .rightP{
   text-align: left;
-  color: #D90000;
+  color: #faf9f6;
   text-decoration: none;
   font-size: 22px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
+/* headers on right */
 .rightB {
-  color: #D90000;
+  color: #C7EA46;
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 10px;
