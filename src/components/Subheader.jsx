@@ -15,13 +15,10 @@ export default function Subfooter() {
     <>
       
       <div className={styles.subheader}>
-        <nav className={styles.navigation}>
+        <nav className={styles.subheaderNav}>
           <ul>
-            <a href= "tel:408-480-7505" className = {styles.paragraph}> {translations[language].callUs} (408) 480-7505 </a>
-            <a className={styles.paragraph}>1255 W. El Camino Real, Sunnyvale, CA, 94087</a>
-          </ul>
-          
-          <ul>
+            <li><a href= "tel:408-480-7505" className = {styles.paragraph}> {translations[language].callUs} (408) 480-7505 </a></li>
+            <li><a className={styles.paragraph}>1255 W. El Camino Real, Sunnyvale, CA, 94087</a></li>
             <li><a href="https://www.instagram.com/lasminasguatecuisine/" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-instagram"></i>
             </a></li>

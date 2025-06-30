@@ -60,7 +60,6 @@ export default function Header() {
               {language === 'en' ? 'Español' : 'English'}
               </button>
             </li>
-            <li><a href='/pickup-delivery' className={styles.btn}>{translations[language].orderButton}</a></li>
           </ul>
         </nav>
 
@@ -91,7 +90,6 @@ export default function Header() {
                 {language === 'en' ? 'Español' : 'English'}
                 </button>
               </li>
-              <li><a href='/pickup-delivery' className={styles.btn}>{translations[language].orderButton}</a></li>
             </ul>
           </div>
         </nav>

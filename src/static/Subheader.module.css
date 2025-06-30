@@ -23,24 +23,21 @@
   white-space: nowrap;
 }
 
-.navigation {
+.subheaderNav {
+  list-style: None;
   display: flex;
   align-items: center;
-  justify-content: space-between; 
-  padding: 0 14%;
+  justify-content: space-between;
   width: 100%;
-  padding-left: 12%;
 }
 
- .navigation ul {
-  display: flex;
-  list-style: none;
+ .subheaderNav ul {
   gap: 0.5%;
   padding: 0;
   margin: 0;
  }
 
-.navigation ul li {
+.subheaderNav ul li {
   display: inline-block;
   margin: 10px;
 }
