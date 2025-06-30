@@ -27,12 +27,15 @@
     text-align: center;
     width: 100%;
     gap: 5%;
+    white-space: nowrap
   }
   
   /* Button Attributes */
   .desktopNav ul li {
     display: inline-block;
+    min-width: 100px;
     margin: 10px 20px;
+    width: 120px;
   }
   
   /* Button text attributes */
@@ -44,17 +47,28 @@
   
   /* Hovering buttons */
   .desktopNav ul li a:hover {
-    color: aqua;
+    color: #4997D0;
   }
 
-  .btn {
+  .desktopNav ul li .btn {
   display: inline-block;
-  padding: 5px 10px;
-  background-color: #2563eb;
-  color: rgb(255, 76, 76);
-  border-radius: 0.5rem;
+  background-color: #4997D0;
+  color: #faf9f6;
+  border-radius: 0.6rem;
   text-decoration: none;
-  } 
+  padding: 15px 25px; 
+  font-size: 0.8rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 700;
+  
+  cursor: pointer;
+}
+
+.desktopNav ul li .btn:hover {
+  background-color: #DAA520; /* swap bg to text color */
+  color: #faf9f6;                     /* swap text to bg color */
+  text-decoration: none;
+}
   
   .desktopNav .logo { 
     margin-top: 1em;
@@ -70,6 +84,13 @@
     cursor: pointer;
     font-size: 24px;
     color: black;
+  }
+
+  .desktopNav .langButton:hover {
+    color: #4997D0;
+    background-color: #b6d3e7;  
+    border-radius: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
   }
 
   .desktopNav .langButton:hover {
@@ -157,11 +178,23 @@
 
     .offScreenMenu .langButton {
       background: none;
-      border: 1px solid black;
-      padding: 0.5rem 1rem;
-      margin-left: 1rem;
+      border: transparent;
       cursor: pointer;
-      font-size: 1rem;
+      font-size: 24px;
       color: black;
+    }
+
+    .offScreenMenu ul li .btn {
+      display: inline-block;
+      background-color: #4997D0;
+      color: #faf9f6;
+      border-radius: 0.6rem;
+      text-decoration: none;
+      padding: 15px 25px; 
+      font-size: 0.8rem;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      font-weight: 700;
+      
+      cursor: pointer;
     }
 }
