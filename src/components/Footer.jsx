@@ -48,7 +48,7 @@ export default function Footer() {
                 <span className={styles.leftP}>1255 W. El Camino Real, Sunnyvale, CA, 94087 </span> <br/><br/>
 
                 <span className={styles.leftB}>{translations[language].phoneNumberTitle}</span> <br/>
-                <a href= "tel:408-480-7505" className = {styles.leftP}> (408) 480-7505 </a> <br/><br/>
+                <a href= "tel:408-757-3311" className = {styles.leftP}> (408) 757-3311 </a> <br/><br/>
                 <span className={styles.leftB}>{translations[language].emailTitle} </span> <br/>
                 <a href= "Info.lasminas@gmail.com" className = {styles.leftP}> info.lasminas@gmail.com </a>
               </p></li>
@@ -66,7 +66,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-san-jose-2" target="_blank" rel="noopener noreferrer" className={styles.wrap}>
+                  <a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-sunnyvale-2?osq=Las+Minas" target="_blank" rel="noopener noreferrer" className={styles.wrap}>
                     <div className={styles.circle} style={{ backgroundColor: '#e01f1f'}}></div>
                     <i class="fab fa-yelp fa-2x"  style={{ zIndex: 1, position: 'relative'}}></i>
                   </a>
@@ -109,7 +109,7 @@ export default function Footer() {
                 <span className={styles.mobileP}>1255 W. El Camino Real, Sunnyvale, CA, 94087 </span> <br/><br/>
 
                 <span className={styles.mobileB}>{translations[language].phoneNumberTitle}</span> <br/>
-                <a href= "tel:408-480-7505" className = {styles.mobileP}> (408) 480-7505 </a> <br/><br/>
+                <a href= "tel:408-757-3311" className = {styles.mobileP}> (408) 757-3311 </a> <br/><br/>
                 <span className={styles.mobileB}>{translations[language].emailTitle} </span> <br/>
                 <a href= "Info.lasminas@gmail.com" className = {styles.mobileP}> info.lasminas@gmail.com </a>
             </p></li>
@@ -139,7 +139,7 @@ export default function Footer() {
                   <i class="fab fa-facebook fa-2x"></i>
                 </a>
               </li><li>
-                <a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-san-jose-2" target="_blank" rel="noopener noreferrer" className={styles.mobileWrap}>
+                <a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-sunnyvale-2?osq=Las+Minas" target="_blank" rel="noopener noreferrer" className={styles.mobileWrap}>
                   <div className={styles.mobileCircle} style={{ backgroundColor: '#e01f1f'}}></div>
                   <i class="fab fa-yelp fa-2x"></i>
                 </a>

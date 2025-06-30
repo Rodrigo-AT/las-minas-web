@@ -1,29 +1,12 @@
-.body {
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    padding-top: 180px;
-  
-    color-scheme: light dark;
-    color: red;
-    background-color: #faf9f6;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-    text-align: center;
-  }
-
-  .body h1 {
+.body h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #0B1D51;             /* dark navy blue for heading */
   font-weight: 700;
+  text-align: center;
 }
 
-.paragraph {
+.aboutP {
   max-width: 700px;
   margin: 0 auto 2rem auto;
   padding: 0 1.5rem;
@@ -34,6 +17,7 @@
   background-color: #fafafa;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
 }
   
   .subheaderWrapper {

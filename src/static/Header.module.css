@@ -49,26 +49,6 @@
   .desktopNav ul li a:hover {
     color: #4997D0;
   }
-
-  .desktopNav ul li .btn {
-  display: inline-block;
-  background-color: #4997D0;
-  color: #faf9f6;
-  border-radius: 0.6rem;
-  text-decoration: none;
-  padding: 15px 25px; 
-  font-size: 0.8rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  font-weight: 700;
-  
-  cursor: pointer;
-}
-
-.desktopNav ul li .btn:hover {
-  background-color: #DAA520; /* swap bg to text color */
-  color: #faf9f6;                     /* swap text to bg color */
-  text-decoration: none;
-}
   
   .desktopNav .logo { 
     margin-top: 1em;
@@ -182,19 +162,5 @@
       cursor: pointer;
       font-size: 24px;
       color: black;
-    }
-
-    .offScreenMenu ul li .btn {
-      display: inline-block;
-      background-color: #4997D0;
-      color: #faf9f6;
-      border-radius: 0.6rem;
-      text-decoration: none;
-      padding: 15px 25px; 
-      font-size: 0.8rem;
-      transition: background-color 0.3s ease, color 0.3s ease;
-      font-weight: 700;
-      
-      cursor: pointer;
     }
 }
