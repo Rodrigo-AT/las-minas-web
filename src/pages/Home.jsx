@@ -36,7 +36,8 @@ export default function Home() {
           {pagesToShow.map(pageNum => (
             <img
               key={pageNum}
-              src={`/menu/${language}/page${pageNum}.png`}
+              /*src={`/menu/${language}/page${pageNum}.png`}  to switch between en and es menus*/
+              src={`/menu/en/page${pageNum}.png`}
               alt={`Menu page ${pageNum}`}
               className={styles.menuImage}
             />
