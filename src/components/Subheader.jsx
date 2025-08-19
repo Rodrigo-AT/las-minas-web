@@ -24,7 +24,7 @@ export default function Subfooter() {
             <li><a href="https://www.facebook.com/people/Las-Minas-Guatemalan-Cuisine/61560650415767/" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-facebook"></i>
             </a></li>
-            <li><a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-san-jose-2" target="_blank" rel="noopener noreferrer">
+            <li><a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-sunnyvale-2?osq=Las+Minas+Guatemalan+Cuisine" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-yelp"></i>
             </a></li>
           </ul>
