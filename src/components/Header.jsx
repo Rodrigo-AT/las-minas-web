@@ -68,9 +68,7 @@ export default function Header() {
           </a>
 
           <button className={styles.hamMenu}
-          onClick={toggleMenu}
-          aria-label="Open menu">
-          disabled={buttonDisabled}
+          onClick={toggleMenu}>
           <i className={menuOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
           </button>
 
