@@ -49,3 +49,10 @@ i{
   color: #faf9f6;
   cursor: pointer;
 }
+
+.logo {
+  margin: 0;
+  padding: 0;
+  height: 1em;
+  cursor: pointer;
+}

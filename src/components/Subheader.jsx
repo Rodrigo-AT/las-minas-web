@@ -1,3 +1,4 @@
+import EzCater from "../assets/ezcaterSubheader.png"
 import styles from '../static/Subheader.module.css'
 import { useLanguage } from '../context/LanguageContext.jsx';
 
@@ -26,6 +27,9 @@ export default function Subfooter() {
             </a></li>
             <li><a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-sunnyvale-2?osq=Las+Minas+Guatemalan+Cuisine" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-yelp"></i>
+            </a></li>
+            <li><a href="https://www.ezcater.com/catering/pvt/las-minas-guatemalan-cuisine-3?fcv=1" target="_blank" rel="noopener noreferrer">
+              <img src={EzCater} className={styles.logo} alt="EzCater logo"/>
             </a></li>
           </ul>
         </nav>

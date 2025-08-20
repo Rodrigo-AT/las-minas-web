@@ -1,3 +1,4 @@
+import EzCater from "../assets/ezcaterFooter.png"
 import styles from '../static/Footer.module.css'
 import { useLanguage } from '../context/LanguageContext.jsx';
 
@@ -71,6 +72,11 @@ export default function Footer() {
                     <i class="fab fa-yelp fa-2x"  style={{ zIndex: 1, position: 'relative'}}></i>
                   </a>
                 </li>
+                <li>
+                  <a href="https://www.ezcater.com/catering/pvt/las-minas-guatemalan-cuisine-3?fcv=1" target="_blank" rel="noopener noreferrer">
+                    <img src={EzCater} className={styles.logo} alt="EzCater logo"/>
+                  </a>
+                </li>
               </ul>
             </ul>
 
@@ -142,6 +148,11 @@ export default function Footer() {
                 <a href="https://www.yelp.com/biz/las-minas-guatemalan-cuisine-sunnyvale-2?osq=Las+Minas" target="_blank" rel="noopener noreferrer" className={styles.mobileWrap}>
                   <div className={styles.mobileCircle} style={{ backgroundColor: '#e01f1f'}}></div>
                   <i class="fab fa-yelp fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ezcater.com/catering/pvt/las-minas-guatemalan-cuisine-3?fcv=1" target="_blank" rel="noopener noreferrer">
+                  <img src={EzCater} className={styles.logo} alt="EzCater logo"/>
                 </a>
               </li>
             </ul>

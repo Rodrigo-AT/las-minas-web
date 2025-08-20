@@ -9,6 +9,7 @@
   flex-direction: column;
   width: 100%;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Title */
@@ -129,6 +130,13 @@
 
 .mobileFooterNav {
   display: none;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  height: 3.2em;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
