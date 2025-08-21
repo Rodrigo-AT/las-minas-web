@@ -6,7 +6,7 @@
     
 .subheader {
   top: 0;
-  height: 35px;
+  height: 45px;
   background-color:  #04c274;
   text-align: center;
   display: flex;
@@ -18,18 +18,19 @@
 .paragraph {
   color: #faf9f6;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 17px;
   margin-left: 20%;
   white-space: nowrap;
 }
 
 .subheaderNav {
-  list-style: None;
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0;
+  padding-left: 7%;
+  padding-right: 13%;
   margin: 0;
 }
 
@@ -48,11 +49,12 @@
 i{
   color: #faf9f6;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .logo {
   margin: 0;
   padding: 0;
-  height: 1em;
+  height: 1.25em;
   cursor: pointer;
 }

@@ -15,10 +15,14 @@ export default function Subfooter() {
   return (
     <>
       <div className={styles.subheader}>
-        <nav className={styles.subheaderNav}>
+        <div className={styles.subheaderNav}>
           <ul>
             <li><a href= "tel:408-757-3311" className = {styles.paragraph}> {translations[language].callUs} (408) 757-3311 </a></li>
+          </ul>
+          <ul>
             <li><a className={styles.paragraph}>1255 W. El Camino Real, Sunnyvale, CA, 94087</a></li>
+          </ul>
+          <ul>
             <li><a href="https://www.instagram.com/lasminasguatecuisine/" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-instagram"></i>
             </a></li>
@@ -32,7 +36,7 @@ export default function Subfooter() {
               <img src={EzCater} className={styles.logo} alt="EzCater logo"/>
             </a></li>
           </ul>
-        </nav>
+        </div>
       </div>
     </>
   )
