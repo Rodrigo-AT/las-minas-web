@@ -3,39 +3,44 @@ import styles from '../static/Footer.module.css'
 import { useLanguage } from '../context/LanguageContext.jsx';
 
 export default function Footer() {
+  const times = {
+    weekTime: "11:00 AM - 9:00 PM",
+    satTime:  "9:00 AM - 10:00 PM",
+    sunTime:  "9:00 AM - 6:00 PM"
+  };
   const { language } = useLanguage();
   const translations = {
-  en: {
-    contactUs: "Visit Us!",
-    businessAddressTitle: "Business Address",
-    phoneNumberTitle: "Phone Number",
-    emailTitle: "Email",
-    businessHoursTitle: "Business Hours",
-    nowOpenSundays: "NOW OPEN ALL SUNDAYS",
-    monday: "Monday:      11:00 AM - 9:00 PM",
-    tuesday: "Tuesday:     11:00 AM - 9:00 PM",
-    wednesday: "Wednesday:   11:00 AM - 9:00 PM",
-    thursday: "Thursday:    11:00 AM - 9:00 PM",
-    friday: "Friday:      11:00 AM - 10:00 PM",
-    saturday: "Saturday:    11:00 AM - 10:00 PM",
-    sunday: "Sunday:      11:00 AM - 7:00 PM"
-  },
-  es: {
-    contactUs: "Visítanos!",
-    businessAddressTitle: "Dirección Comercial",
-    phoneNumberTitle: "Teléfono",
-    emailTitle: "Correo Electrónico",
-    businessHoursTitle: "Horario Comercial",
-    nowOpenSundays: "AHORA ABIERTO LOS DOMINGOS",
-    monday: "Lunes:      11:00 AM - 9:00 PM",
-    tuesday: "Martes:     11:00 AM - 9:00 PM",
-    wednesday: "Miércoles:  11:00 AM - 9:00 PM",
-    thursday: "Jueves:     11:00 AM - 9:00 PM",
-    friday: "Viernes:    11:00 AM - 10:00 PM",
-    saturday: "Sábado:     11:00 AM - 10:00 PM",
-    sunday: "Domingo:    11:00 AM - 7:00 PM"
-  }
-};
+    en: {
+      contactUs: "Visit Us!",
+      businessAddressTitle: "Business Address",
+      phoneNumberTitle: "Phone Number",
+      emailTitle: "Email",
+      businessHoursTitle: "Business Hours",
+      nowOpenSundays: "NOW OPEN ALL SUNDAYS",
+      monday:    "Monday:      ",
+      tuesday:   "Tuesday:     ",
+      wednesday: "Wednesday:   ",
+      thursday:  "Thursday:    ",
+      friday:    "Friday:      ",
+      saturday:  "Saturday:    ",
+      sunday:    "Sunday:      "
+    },
+    es: {
+      contactUs: "Visítanos!",
+      businessAddressTitle: "Dirección Comercial",
+      phoneNumberTitle: "Teléfono",
+      emailTitle: "Correo Electrónico",
+      businessHoursTitle: "Horario Comercial",
+      nowOpenSundays: "AHORA ABIERTO LOS DOMINGOS",
+      monday:    "Lunes:      ",
+      tuesday:   "Martes:     ",
+      wednesday: "Miércoles:  ",
+      thursday:  "Jueves:     ",
+      friday:    "Viernes:    ",
+      saturday:  "Sábado:     ",
+      sunday:    "Domingo:    "
+    }
+  };
   return (
     <>
       <div className={styles.footer}>
@@ -89,18 +94,18 @@ export default function Footer() {
               <div className={styles.navLists}>
                 <ul className={styles.leftListIn}>
                   <li><p className={styles.rightP}>
-                    {translations[language].monday}<br />
-                    {translations[language].tuesday}<br />
-                    {translations[language].wednesday}<br />
-                    {translations[language].thursday}
+                    {translations[language].monday}{times.weekTime}<br />
+                    {translations[language].tuesday}{times.weekTime}<br />
+                    {translations[language].wednesday}{times.weekTime}<br />
+                    {translations[language].thursday}{times.weekTime}
                   </p></li>
                 </ul>
                 
                 <ul className={styles.rightListIn}>
                   <li><p className={styles.rightP}>
-                    {translations[language].friday}<br />
-                    {translations[language].saturday}<br />
-                    {translations[language].sunday}
+                    {translations[language].friday}{times.weekTime}<br />
+                    {translations[language].saturday}{times.satTime}<br />
+                    {translations[language].sunday}{times.sunTime}
                   </p></li>
                 </ul>
               </div>
@@ -124,13 +129,13 @@ export default function Footer() {
                 {translations[language].nowOpenSundays}
               </p></li>
             <li><p className={styles.mobileP}>
-              {translations[language].monday}<br />
-              {translations[language].tuesday}<br />
-              {translations[language].wednesday}<br />
-              {translations[language].thursday}<br />
-              {translations[language].friday}<br />
-              {translations[language].saturday}<br />
-              {translations[language].sunday}
+              {translations[language].monday}{times.weekTime}<br />
+              {translations[language].tuesday}{times.weekTime}<br />
+              {translations[language].wednesday}{times.weekTime}<br />
+              {translations[language].thursday}{times.weekTime}<br />
+              {translations[language].friday}{times.weekTime}<br />
+              {translations[language].saturday}{times.satTime}<br />
+              {translations[language].sunday}{times.sunTime}
             </p></li>
             
             <ul className={styles.socialsListMobile}>

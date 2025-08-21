@@ -46,7 +46,7 @@ html, body {
     margin: 0 auto 2rem auto;
   }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .subheaderWrapper {
     display: none;
   }
